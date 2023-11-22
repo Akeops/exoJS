@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const studentName = "Andoni";
+        let grade = "Grade-5";
+
+        if(grade == "Grade-5") {
+            document.write(`${studentName} will be eligible for 35%`);
+        } else if(grade == "Grade-4") {
+            document.write(studentName + " will be eligible for 25%");
+        } else if(grade == "Grade-3") {
+            document.write(studentName + " will be eligible for 20%");
+        } else if(grade == "Grade-2") {
+            document.write(studentName + " will be eligible for 10%");
+        } else if(grade == "Grade-1"){
+            document.write(studentName + " will be passed with margin.");
+        } else {
+            document.write(studentName + " is declared failed.");
+        }
+
+    </script>
+</body>
+</html>
