@@ -9,11 +9,15 @@
 </head>
 <body>
     <script>
-        for(let i = 1; i <= 6; i++){
-            document.write(`colonne:  ${i} <br>`);
-            for(let j = 0; j <= 5; j++){
-                document.write(`ligne: ${j} <br>`);
+        let row;
+        let colonne;
+        let totalRow = 5;
+        let totalColonne = 4;
+        for(colonne = 1; colonne <= totalColonne; colonne++){
+            for(row = 1; row <= totalRow; row++){
+                document.write(`ligne = ${row} | colonne = ${colonne} <br>`);
             }
+            document.write(`----------------------- <br>`);
         }
     </script>
 </body>
