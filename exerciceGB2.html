@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let row;
+        let column
+        let totalRow = 3;
+        let totalColumn = 3;
+
+        for(row = 1; row <= totalRow; row++){
+            document.write(`Row = ${row} |`);
+            for(column=1; column <= totalColumn; column++){
+                document.write(` Column = ${column}`);
+            }
+            document.write(`<br>`);
+        }
+    </script>
+</body>
+</html>
