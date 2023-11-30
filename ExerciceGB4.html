@@ -5,6 +5,21 @@
     <title>Title</title>
 </head>
 <body>
+    <script>
+        let row;
+        let column;
+        const totalRow = 5;
+        const totalColumn = 5;
 
+        for(column = 1; column <= totalColumn; column++){
+            for(row=1; row <= totalRow; row++){
+                document.write(`*_`);
+                if(row === totalRow){
+                    document.write(`*`);
+                }
+            }
+            document.write(`<br>`);
+        }
+    </script>
 </body>
 </html>
