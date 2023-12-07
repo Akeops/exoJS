@@ -1,10 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>LoopingProblemF</title>
 </head>
 <body>
-$END$
+    <script>
+        let col;
+        let row;
+        let totalRow = 8;
+
+        for(col = 1; col <= 5; col++){
+            for(row = 1; row <= totalRow; row++){
+                document.write(`${col}>=${row} `);
+            }
+            document.write(`<br>`)
+        }
+        for(col = 6; col <= 8; col++){
+            for(row = 8; row >= 1; row--){
+                document.write(`${col}>=${row} `);
+            }
+            document.write(`<br>`)
+        }
+    </script>
+
+
 </body>
 </html>

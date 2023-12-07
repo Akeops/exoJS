@@ -1,10 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>LoopingProblemH</title>
 </head>
 <body>
-$END$
+    <script>
+        let row;
+        let col;
+        const totalRow = 8;
+        for(col = 2; col <= 3; col++){
+            for(row = 2; row <= totalRow; row+=2){
+                document.write(`${col}>=${row} `);
+            }
+            document.write(`<br>`);
+        }
+
+        for(col = 2; col >= 2; col--){
+            for(row = 2; row <= totalRow; row+=2){
+                document.write(`${col}>=${row} `);
+            }
+            document.write(`<br>`);
+        }
+
+        for(col = 1; col <= 5; col++){
+            for(row = 2; row <= totalRow; row+=2){
+                document.write(`${col}>=${row} `);
+            }
+            document.write(`<br>`);
+        }
+    </script>
 </body>
 </html>

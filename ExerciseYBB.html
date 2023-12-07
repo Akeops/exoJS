@@ -1,10 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>ExerciseYBB</title>
 </head>
 <body>
-$END$
+    <script>
+        let row;
+        let col;
+        const totalRow = 7;
+        const totalCol = 5;
+        const printchar = "*&nbsp&nbsp";
+        const blankSpace = "&nbsp&nbsp&nbsp ";
+
+        for(row=1; row <= totalRow; row++){
+            for(col = 1; col <= totalCol; col++){
+                if(row === 1 || row === 7 || col === 5 || col === 2 || row === 4 && col >= 2){
+                    document.write(`${printchar}`);
+                }
+                else {
+                    document.write(`${blankSpace}`);
+                    }
+                }
+            document.write(`<br>`);
+            }
+
+
+    </script>
 </body>
 </html>

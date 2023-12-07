@@ -1,10 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>LoopingProblemE</title>
 </head>
 <body>
-$END$
+    <script>
+        let col;
+        let row;
+        const totalCol = 4;
+        const totalRow = 4;
+
+        for(col = 1; col <= totalCol; col++){
+            for(row=1; row <= totalRow; row++){
+                document.write(`${col}>=${row} `);
+            }
+            document.write(`<br>`);
+        }
+        for(col = 1; col <= totalCol; col++) {
+            for (row = 1; row <= totalRow; row++) {
+                document.write(`${col}>=${col} `);
+            }
+            document.write(`<br>`);
+        }
+
+    </script>
 </body>
 </html>

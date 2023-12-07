@@ -1,10 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>ExerciseYB1</title>
 </head>
 <body>
-$END$
+    <script>
+        let row;
+        let col;
+        const totalRow = 5;
+        const totalCol = 5;
+
+        for(col = 1; col <= totalCol; col++){
+            for(row = 1; row <= totalRow; row++){
+                if(col === row){
+                    document.write(`* `);
+                } else {
+                    document.write(`_,_`);
+                }
+            }
+            document.write(`<br>`);
+        }
+    </script>
 </body>
 </html>
