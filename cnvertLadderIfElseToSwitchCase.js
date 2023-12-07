@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <script>
+
         const studentName = prompt('Rentrez votre prénom');
         const grade = prompt('Rentrez votre grade');
 
@@ -33,7 +25,3 @@
                 document.write(`${studentName} has an invalid grade ?`);
             break;
         }
-
-    </script>
-</body>
-</html>
