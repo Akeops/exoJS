@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //Demander à l'utilisateur un nombre entre 0 et 10. Si celui-ci n'est pas pas comme convenu, afficher un message d'erreur sinon afficher tous les chiffres qui se trouvent en dessous du numéro choisi par l'utilisateur
+        const num = prompt('Choisissez un numéro entre 1 et 10');
+        let i;
+        if(0 <= num && num <= 10 ){
+            for(i = num; i >= 0; i--){
+                console.log(i);
+            }
+        } else {
+            console.log('Le numéro choisi n\'est pas bon');
+        }
+    </script>
+</body>
+</html>
