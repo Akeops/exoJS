@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let guess = 10;
+        let num = prompt(`Devinez le chiffre`);
+
+        while(num != guess){  
+            num = prompt(`Devinez le chiffre`);
+            if(num == guess){
+                document.write(`Bravo vous avez trouvé !`);
+                document.write(`<br>`);
+            } else if (num > guess) {
+                document.write(`${num} est plus haut que le numéro mystère !`);
+                document.write(`<br>`);
+            } else {
+                document.write(`${num} est plus bas que le numéro mystère !`);
+                document.write(`<br>`);
+            }
+        }
+            
+
+    </script>
+</body>
+</html>
